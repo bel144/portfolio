@@ -1,41 +1,16 @@
 "use client";
 
 import React from 'react';
-import { Box, Typography, Card, CardContent, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
+import { Box, Typography, CardContent, List, ListItem, ListItemIcon, ListItemText } from '@mui/material';
 import ArrowRightIcon from '@mui/icons-material/ArrowRight';
+import { SectionHeading, BaseCard } from './SharedUI';
 
 const Experience = () => {
   return (
     <Box component="section" className="section experience" sx={{ maxWidth: '800px', mx: 'auto', mb: 10 }}>
-       <Typography 
-        variant="h4" 
-        className="section-heading" 
-        sx={{ 
-          color: '#ccd6f6', 
-          fontWeight: 600, 
-          mb: 4, 
-          display: 'flex', 
-          alignItems: 'center',
-          fontSize: 'clamp(26px, 5vw, 32px)'
-        }}
-      >
-        <span style={{ color: '#64ffda', fontFamily: 'var(--font-mono)', marginRight: '10px', fontSize: 'clamp(16px, 3vw, 20px)' }}>*</span> 
-        Where I&apos;ve Worked
-      </Typography>
+       <SectionHeading title="Where I've Worked" />
       
-      <Card 
-        sx={{ 
-          bgcolor: '#112240', 
-          color: '#8892b0', 
-          borderRadius: 1, 
-          boxShadow: '0 10px 30px -15px rgba(2, 12, 27, 0.7)',
-          border: 'none',
-          transition: 'transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)',
-          '&:hover': {
-            transform: 'translateY(-5px)',
-          }
-        }}
-      >
+      <BaseCard>
         <CardContent sx={{ p: { xs: 3, md: 4 } }}>
           <Box sx={{ display: 'flex', flexDirection: { xs: 'column', md: 'row' }, gap: 4 }}>
             <Box sx={{ flex: 1 }}>
@@ -85,7 +60,7 @@ const Experience = () => {
             </Box>
           </Box>
         </CardContent>
-      </Card>
+      </BaseCard>
     </Box>
   );
 };
