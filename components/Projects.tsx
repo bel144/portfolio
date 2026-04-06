@@ -1,40 +1,15 @@
 "use client";
 
 import React from 'react';
-import { Box, Typography, Card, CardContent, Stack } from '@mui/material';
+import { Box, Typography, CardContent, Stack } from '@mui/material';
+import { SectionHeading, BaseCard } from './SharedUI';
 
 const Projects = () => {
   return (
     <Box component="section" className="section projects" sx={{ maxWidth: '1000px', mx: 'auto', mb: 10 }}>
-      <Typography 
-        variant="h4" 
-        className="section-heading" 
-        sx={{ 
-          color: '#ccd6f6', 
-          fontWeight: 600, 
-          mb: 5, 
-          display: 'flex', 
-          alignItems: 'center',
-          fontSize: 'clamp(26px, 5vw, 32px)'
-        }}
-      >
-        <span style={{ color: '#64ffda', fontFamily: 'var(--font-mono)', marginRight: '10px', fontSize: 'clamp(16px, 3vw, 20px)' }}>04.</span> 
-        Some Things I&apos;ve Built
-      </Typography>
+      <SectionHeading title="Some Things I've Built" />
 
-      <Card 
-        sx={{ 
-          bgcolor: '#112240', 
-          color: '#8892b0', 
-          borderRadius: 1, 
-          boxShadow: '0 10px 30px -15px rgba(2, 12, 27, 0.7)',
-          border: 'none',
-          transition: 'transform 0.25s cubic-bezier(0.645, 0.045, 0.355, 1)',
-          '&:hover': {
-            transform: 'translateY(-5px)',
-          }
-        }}
-      >
+      <BaseCard>
         <CardContent sx={{ p: { xs: 3, md: 5 } }}>
           <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', mb: 2 }}>
             <Box>
@@ -88,7 +63,7 @@ const Projects = () => {
             ))}
           </Stack>
         </CardContent>
-      </Card>
+      </BaseCard>
       
     </Box>
   );
