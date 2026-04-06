@@ -50,7 +50,7 @@ const Education = () => {
                   </Typography>
                 </Box>
                 <Chip 
-                  label="September 2022 - Present" 
+                  label="Expected Graduation: 2026" 
                   sx={{ 
                     bgcolor: 'rgba(100, 255, 218, 0.1)', 
                     color: '#64ffda', 
@@ -70,7 +70,7 @@ const Education = () => {
                   <ListItemText 
                     primary={
                       <Typography variant="body1" sx={{ color: '#8892b0', fontSize: '1rem' }}>
-                        GPA : 3.58/4.0 (Seventh Semester)
+                        GPA: 3.62 / 4.00
                       </Typography>
                     } 
                   />

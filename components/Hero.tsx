@@ -20,12 +20,12 @@ const Hero = () => {
               I build scalable, data-intensive web apps.
             </Typography>
             <Typography variant="body1" className="description" sx={{ color: '#8892b0', fontSize: '1.1rem', maxWidth: '540px', mb: 5 }}>
-              I am a seventh-semester Computer Science student at BINUS University and a Software Engineer Intern.
-              I specialize in building performance-oriented applications with 
+              I am a final-year Computer Science student at BINUS University with hands-on experience in full-stack web development. 
+              I specialize in building scalable, performance-oriented applications using 
               <span style={{ color: '#64ffda' }}> Next.js</span>, 
               <span style={{ color: '#64ffda' }}> TypeScript</span>, and 
-              <span style={{ color: '#64ffda' }}> PostgreSQL</span>.
-              Currently, I&apos;m focused on backend business logic and scalable system design.
+              <span style={{ color: '#64ffda' }}> PostgreSQL</span>. 
+              Currently, my focus is on designing efficient backend logic, optimizing data-intensive systems, and developing scalable system architectures.
             </Typography>
             
             <Button

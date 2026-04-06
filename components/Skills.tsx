@@ -7,9 +7,10 @@ import ArrowRightIcon from '@mui/icons-material/ArrowRight';
 const Skills = () => {
   const skills = {
     "Software Skills": [
-      "Languages & Frameworks: TypeScript, JavaScript, HTML, CSS, Java, PL/pgSQL, and JSONB data handling",
-      "Frontend: React, Next.js",
-      "Backend & Database: PostgreSQL, MySQL, Supabase, RPC (PL/pgSQL)",
+      "Languages: TypeScript, JavaScript, Java, SQL (PostgreSQL, MySQL)",
+      "Frontend: React, Next.js, HTML, CSS, Tailwind, MUI",
+      "Backend: Node.js, REST API, Supabase, PostgreSQL RPC (PL/pgSQL)",
+      "Database: PostgreSQL, MySQL, JSONB",
       "Tools: Git, Visual Studio Code, Figma"
     ],
     "Language Skills": [

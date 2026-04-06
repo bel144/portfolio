@@ -44,7 +44,7 @@ const Experience = () => {
                   Software Developer Intern <span style={{ color: '#64ffda' }}>@ KALBE FARMA</span>
                 </Typography>
                 <Typography variant="body2" sx={{ fontFamily: 'var(--font-mono)', color: '#a8b2d1', mt: 1, fontSize: '0.9rem' }}>
-                  February 2025 - Present
+                  February 2025 - April 2026
                 </Typography>
               </Box>
               

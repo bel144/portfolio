@@ -42,7 +42,7 @@ const Projects = () => {
                 Featured Project
               </Typography>
               <Typography variant="h5" sx={{ color: '#ccd6f6', fontWeight: 600, fontSize: 'clamp(24px, 5vw, 28px)', mb: 1 }}>
-                Omnikasir – Integrated POS & E-commerce System (Thesis Project)
+                OmniKasir – Integrated POS & E-commerce System (Thesis Project)
               </Typography>
             </Box>
             <Box 
@@ -62,7 +62,7 @@ const Projects = () => {
             />
           </Box>
           <Typography variant="body2" sx={{ color: '#a8b2d1', fontFamily: 'var(--font-mono)', fontSize: '0.9rem', mb: 3 }}>
-            Project Manager & Lead Analyst | February 2025 - January 2026
+            Project Manager & Lead Analyst | February 2025 - March 2026
           </Typography>
 
           <Box sx={{ 
